@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+  <main>
+    <section class="card">
+      <form class="flex-main-container">
+        <div class="flex-container">
+          <label for="day" id="day-label">DAY</label>
+          <input type="text" class="input" id="day" name="day" maxlength="2" placeholder="DD">
+          <p id="day-error" class="error"></p>
+        </div>
+        <div class="flex-container">
+          <label for="month" id="month-label">MONTH</label>
+          <input type="text" class="input" id="month" name="month" maxlength="2" placeholder="MM">
+          <p id="month-error" class="error"></p>
+        </div>
+        <div class="flex-container">
+          <label for="year" id="year-label">YEAR</label>
+          <input type="text" class="input" id="year" name="year" maxlength="4" placeholder="YYYY">
+          <p id="year-error" class="error"></p>
+        </div>
+      </form>
+      <div class="button-container">
+        <button class="btn"><img src="./assets/images/icon-arrow.svg" alt="button"></button>
+      </div>
+      <div class="results">
+        <h2><span id="years-result">--</span> years</h2>        
+        <h2><span id="months-result">--</span> months</h2>        
+        <h2><span id="days-result">--</span> days</h2>        
+      </div>
+    </section>
+  </main>
+  
+  <script src="app.js"></script>
+  
+</body>
+</html>
