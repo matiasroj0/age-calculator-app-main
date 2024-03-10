@@ -8,7 +8,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: https://sparkling-licorice-10d80f.netlify.app/
+- Live Site URL: https://matiasrojo-age-calculator-app.netlify.app/
 
 ### Built with
 
